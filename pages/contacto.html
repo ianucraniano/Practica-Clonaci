@@ -47,28 +47,28 @@
         </header>
 
         <section class="contenedor"> <!-- Seccion 2 -->
-           <h2>Cuenta</h2>
+          <form action="">
 
-            <form action="">
-                <fieldset>
-                    <legend>Contactanos</legend>
-                    <div>
-                        <label for="nombre">Nombre <span>*</span></label>
-                        <input type="text" placeholder="Tu email" id="nombre">
-                    </div>
-                    <div>
-                        <label for="corre">Correo<span>*</span></label>
-                        <input type="email" placeholder="Tu email" id="correo">
-                    </div>
+            <h2>Cuenta</h2>
+            <legend>Contactanos</legend>
+            <div class="mb-3">
+             <label for="exampleFormControlInput1" class="form-label">Nombre:</label>
+             <input type="text" class="form-control form-control-lg" style="height: 50px;" id="exampleFormControlInput1" placeholder="ian rak">
+           </div>
+           <div class="mb-3">
+             <label for="exampleFormControlInput1" class="form-label">Email:</label>
+             <input type="email" class="form-control form-control-lg" style="height: 50px;" id="exampleFormControlInput1" placeholder="name@example.com">
+           </div>
+           <div class="mb-3">
+             <label for="exampleFormControlTextarea1" class="form-label">Contactanos</label>
+             <textarea class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="10"></textarea>
+             <br>
+             <input class="boton" style="width: 100%;" type="submit" value="Enviar">
+             
+           </div>
+          </form>
 
-                    <div>
-                        <label for="mensaje">Mensaje<span>*</span></label>
-                        <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
-                    </div>
-
-                    <input class="boton" type="submit" value="Enviar">
-                </fieldset>
-            </form>
+           
         </section>
 
         <footer class="footer"> <!-- Seccion 3 -->

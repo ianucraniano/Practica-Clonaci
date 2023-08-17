@@ -5,6 +5,7 @@
     --negro: #333333;
     --primario: #f2dd6e;
     --secundario: #523a34;
+    --colorboton: #0b68e2;
 }
 
 
@@ -181,7 +182,7 @@ h1,h2,h3 {
 
 /* BOTONES */
 .boton {
-    background-color: var(--secundario);
+    background-color: var(--colorboton);
     color: var(--blanco);
     padding: 1rem 3rem;
     margin-top: 1rem;
